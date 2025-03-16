@@ -1,0 +1,26 @@
+sudo ifconfig eth0 x.x.x.x netmask x.x.x.x
+
+ftp x.x.x.x
+anonymous
+ls
+get "filename"
+
+ssh user1@x.x.x.x
+ls
+change directory with : cd "file locstion"/
+~images$ ls will show the file you want
+
+sudo scp user1@x.x.x.x:images/"filename" . (dont forget period)
+then type password
+
+sudo route add default gw x.x.x.x
+
+cat /etc/resolv.conf
+sudo nano /etc/resolv.conf
+nameserver 8.8.8.8 (google dns)
+cntl x
+y
+exit
+
+then go to school website and turn it in.
+
