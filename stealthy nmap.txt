@@ -1,0 +1,1 @@
+nmap -sS -T1 -Ddecoy1,decoy2,decoy3,ME -p 1-65535 <target> --randomize-hosts
