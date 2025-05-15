@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 
-# Conversion factors
+
 conversion_factors = {
     ("Kilograms", "Pounds"): 2.20462,
     ("Pounds", "Kilograms"): 1 / 2.20462,
@@ -13,7 +13,7 @@ conversion_factors = {
 
 units = ["Kilograms", "Pounds", "Meters", "Inches", "Liters", "Cups"]
 
-# Main converter function
+
 def convert():
     try:
         value = float(entry_value.get())
@@ -33,7 +33,7 @@ def convert():
     except ValueError:
         result.set("Please enter a valid number")
 
-# Tkinter UI setup
+
 root = tk.Tk()
 root.title("Unit Converter")
 root.geometry("300x250")
